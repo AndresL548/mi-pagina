@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pruebaParcial.css">
+</head>
+<body>
+    <div class="background-grid">
+        <div class="grid-cell left-column">1</div>
+        <div class="grid-cell dos">
+            <img src="brocoli.png" alt="" class="broccoli-img">
+            <img src="estab.png" alt="" class="establi-img">
+
+            <!-- ✅ SHOP BUTTON -->
+            <a href="#" class="shop-button">
+                SHOP NOW
+                <img src="arrow.png" alt="Flecha">     
+            </a>
+
+            <!-- ✅ LIMÓN (YA NO TAPA NADA) -->
+            <img src="limon.png" alt="Limón" class="limon-img">
+
+            <!-- ✅ BOTONES CON LÍNEAS -->
+            <div class="categoria-bar">
+                <button class="categoria-btn">ALL</button>
+                <span class="linea"></span>
+                <button class="categoria-btn">VEGETABLES</button>
+                <span class="linea"></span>
+                <button class="categoria-btn">FRUIT</button>
+                <span class="linea"></span>
+                <button class="categoria-btn">DRY FRUIT</button>
+            </div>
+        </div>
+        <div class="grid-cell right-column">5</div>
+        <div class="grid-cell">3</div>
+        <div class="grid-cell">4</div>
+    </div>
+
+    <button id="showButton">Mostrar Información</button>
+
+    <div class="vegeta" id="vegeta">
+        <h2>Información Adicional</h2>
+        <p>Esta es una ventana emergente que ocupa la mitad de la pantalla.</p>
+        <button class="close-btn" id="closeButton">Cerrar</button>
+    </div>
+
+    <script src="parcial.js"></script>
+</body>
+</html>
